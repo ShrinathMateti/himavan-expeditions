@@ -37,7 +37,7 @@ export default function App() {
           
           {/* 4. Handled modal actions for Trek Card details button clicks */}
           <TreksSection onBookClick={() => setIsModalOpen(true)} />
-          
+     
           <PassesSection onBookClick={() => setIsModalOpen(true)} />
           <Footer />
           <ScrollToTop />
