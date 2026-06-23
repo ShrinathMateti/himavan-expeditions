@@ -6,7 +6,6 @@ import Hero from './components/Hero';
 import TreksSection from './components/TreksSection';
 import PassesSection from './components/PassesSection';
 import Footer from './components/Footer';
-import ScrollToTop from './components/ScrollToTop';
 import BookingModal from './components/BookingModal'; 
 
 export default function App() {
@@ -40,7 +39,7 @@ export default function App() {
      
           <PassesSection onBookClick={() => setIsModalOpen(true)} />
           <Footer />
-          <ScrollToTop />
+      
 
           {/* 5. Appended global modal portal node at the root layer */}
           <BookingModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
