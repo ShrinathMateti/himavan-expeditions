@@ -22,7 +22,7 @@ export default function Loader() {
           opacity: { duration: 0.8 },
           y: { duration: 0.8 }
         }}
-        className="text-himavan-gold text-7xl md:text-8xl mb-4 drop-shadow-[0_0_15px_rgba(226,182,89,0.1)]"
+        className="text-white text-7xl md:text-8xl mb-4 drop-shadow-[0_0_15px_rgba(226,182,89,0.1)]"
       >
         <GiMountainCave />
       </motion.div>
